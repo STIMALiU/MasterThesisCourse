@@ -1,0 +1,1124 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\setcounter{MaxMatrixCols}{10}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{mathpazo}
+\usepackage{hyperref}
+\usepackage{multimedia}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\definecolor{RawSienna}{cmyk}{0,0.87,0.82,0.31}
+\definecolor{gray97}{cmyk}{0,0,0,0.03}
+\definecolor{robinsegg}{cmyk}{0.18,0.04,0,0.07}
+\definecolor{cola}{cmyk}{0,0.315,0.35,0.155}
+
+\newenvironment{stepenumerate}{\begin{enumerate}[<+->]}{\end{enumerate}}
+\newenvironment{stepitemize}{\begin{itemize}[<+->]}{\end{itemize} }
+\newenvironment{stepenumeratewithalert}{\begin{enumerate}[<+-| alert@+>]}{\end{enumerate}}
+\newenvironment{stepitemizewithalert}{\begin{itemize}[<+-| alert@+>]}{\end{itemize} }
+\usecolortheme[named=RawSienna]{structure}
+%\usecolortheme[RGB={205,0,0}]{structure}
+\setbeamertemplate{navigation symbols}{}
+\useoutertheme{infolines}
+\usetheme{default}
+\setbeamertemplate{blocks}[shadow=true]
+%\setbeamerfont{structure}{shape=\itshape}
+\usefonttheme{structuresmallcapsserif}
+\setbeamertemplate{background canvas}{
+ % \ifnum \thepage>0 \relax % we are on the first page
+%\includegraphics[width=\paperwidth,height=\paperheight]{/home/mv/Dropbox/Foton/IconsWallpaper/greyribbonLighter.jpg}
+ % \else
+ 	% No background for page 2 and onwards
+ % \fi
+}
+\end_preamble
+\options xcolor=svgnames
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+Master thesis intro
+\end_layout
+
+\end_inset
+
+Master thesis - Introduction
+\end_layout
+
+\begin_layout Author
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+Mattias Villani
+\end_layout
+
+\end_inset
+
+Mattias Villani
+\end_layout
+
+\begin_layout Institute
+
+\series bold
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Statistik, LiU
+\end_layout
+
+\end_inset
+
+Statistik
+\begin_inset Newline newline
+\end_inset
+
+Institutionen för Datavetenskap
+\begin_inset Newline newline
+\end_inset
+
+Linköpings Universitet 
+\end_layout
+
+\begin_layout Date
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Admission requirements - the hard facts
+\end_layout
+
+\begin_layout Itemize
+The 
+\series bold
+rule
+\series default
+: You must have passed (grade A-E) every compulsory course within the study
+ program.
+\end_layout
+
+\begin_layout Itemize
+The 
+\series bold
+exception
+\series default
+: You may have a course moment (exam, lab, project) left to fulfil from
+ one course.
+ This moment shall be completed at latest in March 2013.
+ If not, your thesis project will be halted and postponed to next term!
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+This year's exception
+\series default
+: You may start the master thesis course if you can realistically argue
+ that you will have passed every compulsory course by March 2013.
+ If you are not done by March, your thesis project will be halted and postponed
+ to next term!
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+A master thesis is a course
+\end_layout
+
+\begin_layout Itemize
+Successive deadlines and compulsory moments: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Thesis proposal seminar 
+\end_layout
+
+\begin_layout Itemize
+Mid-term report 
+\end_layout
+
+\begin_layout Itemize
+Revision meeting 
+\end_layout
+
+\begin_layout Itemize
+Defence seminar
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Omission to adhere to these moments may lead to that the examination of
+ your work will be postponed to next term!
+\end_layout
+
+\begin_layout Itemize
+Supervisors and examiners have been appointed to that term in which you
+ are supposed to complete your work.
+\end_layout
+
+\begin_layout Itemize
+You shall act as opponent on another thesis and that should be done according
+ to the schedule.
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Part 1 - Problem formulation and literature review
+\end_layout
+
+\begin_layout Itemize
+Time frame: Now- Feb 11 (Project Proposal Seminar).
+\end_layout
+
+\begin_layout Itemize
+Make a careful review of the 
+\series bold
+background
+\series default
+ to your problem, 
+\series bold
+available data
+\series default
+ and the 
+\series bold
+specific questions 
+\series default
+put by the commissioner.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Put your work in a scientific context
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Has anyone studied your kind of problem previously? 
+\end_layout
+
+\begin_layout Itemize
+Are there studies of similar problems? 
+\end_layout
+
+\begin_layout Itemize
+What lessons can be learnt? 
+\end_layout
+
+\begin_layout Itemize
+What is new in your study?
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Why
+\series default
+ did you choose a certain model/method/algorithm?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Google! Google! Google!
+\end_layout
+
+\begin_layout Itemize
+Write a first draft of background, your preliminary objective, description
+ of data and literature review.
+\end_layout
+
+\begin_layout Itemize
+Prepare for your 
+\series bold
+Thesis Proposal Seminar
+\series default
+ (oral with slides).
+ This shall include suggestions of methods
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Part 2 - Main work, first phase.
+\end_layout
+
+\begin_layout Itemize
+Time frame: Feb 12 - March 25 (Mid-term Report Seminar).
+\end_layout
+
+\begin_layout Itemize
+Amend your thesis proposal taking aspects from the proposal seminar into
+ account.
+\end_layout
+
+\begin_layout Itemize
+Work with your project.
+\end_layout
+
+\begin_layout Itemize
+Adhere to regular supervision
+\end_layout
+
+\begin_layout Itemize
+Write draft pages containing results and analysis of these 
+\end_layout
+
+\begin_layout Itemize
+Towards the end of the period, prepare for the Mid-term report seminar:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Short written summary of your progress so far 
+\end_layout
+
+\begin_layout Itemize
+Oral presentation with slides
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Part 3 - Main work, second phase.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Time frame
+\series default
+: March 16 - May 13.
+\end_layout
+
+\begin_layout Itemize
+Take aspects from the mid-term report seminar into account.
+\end_layout
+
+\begin_layout Itemize
+Prepare the skeleton of your final theses and include the parts that are
+ already written.
+ 
+\end_layout
+
+\begin_layout Itemize
+Finalize your analyses and complete the results part of your thesis.
+\end_layout
+
+\begin_layout Itemize
+Finalize the methodology chapter and the reference list of your thesis.
+ 
+\end_layout
+
+\begin_layout Itemize
+Put strong effort on writing a good discussion part.
+ It should comprise several pages.
+ 
+\end_layout
+
+\begin_layout Itemize
+Formulate your conclusions.
+\end_layout
+
+\begin_layout Itemize
+Write a summary (max.
+ 1 page) of your thesis and provide a title.
+ 
+\end_layout
+
+\begin_layout Itemize
+Prepare the final manuscript to the Revision meeting.
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Part 4 - Finalizing
+\end_layout
+
+\begin_layout Itemize
+Time frame: May 14 – June 17.
+\end_layout
+
+\begin_layout Itemize
+Review the thesis for which you have been appointed as opponent.
+ Prepare for the Revision meeting.
+\end_layout
+
+\begin_layout Itemize
+The Revision meeting is a closed seminar, where the author (respondent),
+ the opponent, the supervisor and possibly another teacher take part.
+ The purpose of the meeting is to go through everything in the manuscript
+ that is objected to criticism.
+\end_layout
+
+\begin_layout Itemize
+Part from the discussion made, the opponent shall provide the respondent
+ with a written list of major issues and a written list of language errors
+ (alternatively a version of the thesis where the language errors have been
+ marked) 
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Part 4 - Finalizing, cont
+\end_layout
+
+\begin_layout Itemize
+Make revisions in your own thesis according to what has been taken up by
+ your opponent (and your supervisor) 
+\end_layout
+
+\begin_layout Itemize
+Prepare your final manuscript for the Defence seminar.
+ 
+\end_layout
+
+\begin_layout Itemize
+Prepare a good presentation for the Defence seminar.
+ 
+\end_layout
+
+\begin_layout Itemize
+Check the revisions made in the thesis on which you are the opponent.
+ Prepare discussion points for the Defence seminar.
+\end_layout
+
+\begin_layout Itemize
+Perform on the Defence seminar both as presenter and as opponent! 
+\end_layout
+
+\begin_layout Itemize
+Consider the discussion of your thesis during the Defence seminar and revise
+ your manuscript accordingly.
+ 
+\end_layout
+
+\begin_layout Itemize
+Submit your very final manuscript in which you have included:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+library sheet URL
+\end_layout
+
+\begin_layout Itemize
+copyright page from LiU Electronic Press
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Schedule
+\end_layout
+
+\begin_layout Itemize
+January 21, 2014 (Today): Course start.
+\end_layout
+
+\begin_layout Itemize
+February 11, 2014: Thesis proposal seminars
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each student presents their thesis topic (including data description suggested
+ methods) and outline for the work.
+ 20 minutes per thesis including questions.
+\end_layout
+
+\begin_layout Itemize
+Expected outcome: Each course attendant and tutor should have been informed
+ about and understood the objectives of the thesis projects
+\end_layout
+
+\begin_layout Itemize
+Compulsory to attend!
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Mid-term report
+\end_layout
+
+\begin_layout Itemize
+March 25, 2014.
+\end_layout
+
+\begin_layout Itemize
+Each student presents their progress so far.
+ 25 minutes per thesis including questions.
+ 
+\end_layout
+
+\begin_layout Itemize
+A two-pages written summary of the progress should accompany the presentation.
+\end_layout
+
+\begin_layout Itemize
+Expected outcome: Each course attendant and tutor should have been informed
+ about what has been done so far and what is left to do for each thesis
+ project.
+\end_layout
+
+\begin_layout Itemize
+Compulsory to attend! 
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Revision meeting
+\end_layout
+
+\begin_layout Itemize
+May 13, 2014: Deadline for submitting manuscript to opponent and supervisor
+ in front of revision meeting.
+\end_layout
+
+\begin_layout Itemize
+May 20-21, 2014: Revision meetings.
+\end_layout
+
+\begin_layout Itemize
+The opponent has one week (from May 13 until May 20) to read the manuscript
+ and prepare an oral and written review.
+ 
+\end_layout
+
+\begin_layout Itemize
+The scheduling of the meeting is made in agreement between the author, opponent
+ and supervisor.
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Submission of final manuscript and final defense
+\end_layout
+
+\begin_layout Itemize
+May 27, 2014 at 12.00: Deadline for manuscript submission
+\end_layout
+
+\begin_layout Itemize
+The manuscript should be sent to the opponent and to all supervisors (Anders
+ N, Mattias, Patrik, Bertil and Linda).
+\end_layout
+
+\begin_layout Itemize
+June 3, 2014 (full day): Defence seminar
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each student presents their thesis for a maximum of 25 minutes, followed
+ by the opposition (max.
+ 25 minutes) and a general discussion.
+\end_layout
+
+\begin_layout Itemize
+After the seminar (or in breaks) each supervisor should summarize for the
+ student what is left to be adjusted in the manuscript.
+\end_layout
+
+\begin_layout Itemize
+Compulsory to attend the whole seminar! 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+June 17, 2014: Deadline for submission of revised manuscript
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Supervision
+\end_layout
+
+\begin_layout Itemize
+The 
+\series bold
+normal
+\series default
+ frequency of meetings with the supervisor is every second week.
+\end_layout
+
+\begin_layout Itemize
+It is mainly the student who puts “the agenda” for the meeting, i.e.
+ you are expected to have some progress to show and to have prepared questions.
+\end_layout
+
+\begin_layout Itemize
+At each meeting it is wise to agree on what are the next steps.
+\end_layout
+
+\begin_layout Itemize
+You are expected to successively show progress in your report writing:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Start writing very early! 
+\end_layout
+
+\begin_layout Itemize
+Submit manuscript parts to the supervisor in due time before the meeting
+ (to facilitate feed-back)
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Grading
+\end_layout
+
+\begin_layout Itemize
+The grading is based on:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The 
+\series bold
+scientific
+\series default
+ 
+\series bold
+quality
+\series default
+ of the thesis (adequacy and originality of the methods used, significance
+ of obtained results, discourse skill) n.b.
+ “originality” is not equivalent to the development of new methods, rather
+ that the methods used have not previously been applied on the kind of data
+ used.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Technical
+\series default
+ 
+\series bold
+quality
+\series default
+ of the thesis (correctness of language and scientific terminology, implementati
+on, quality of illustrations).
+ This applies to the version of the manuscript submitted before the revision
+ meeting and to the revisions made upon that.
+\end_layout
+
+\begin_layout Itemize
+The 
+\series bold
+degree
+\series default
+ 
+\series bold
+of independence
+\series default
+.
+ The supervisor gives an assessment to the examiner regarding the independence
+ of the student during the master thesis.
+ Listen to the supervisors advice, but do take own initiatives! (but always
+ check with supervisor).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Quality of the performed opposition
+\series default
+, both at the revision meeting and at the final defense.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Quality of presentation and communication
+\series default
+ (clarity of written presentation, ability to orally present, discuss and
+ defend the thesis).
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Supervisor and examiners
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Student
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Commisioner
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Supervisor 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Examiner
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marcus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spotify
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nordgaard
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parfait
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ericsson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keith
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LiU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Waldmann
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Raid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LiU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Villani
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nazib
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LiU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Villani
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Uriel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LiU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Villani
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paolo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ericsson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Waldmann
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lauren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LiU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wänström/Wegmann
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document
