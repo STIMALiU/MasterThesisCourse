@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass beamer
@@ -47,13 +47,13 @@
 \font_roman palatino
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -64,15 +64,24 @@
 \use_hyperref false
 \papersize default
 \use_geometry true
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -96,7 +105,7 @@
 \begin_body
 
 \begin_layout Title
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -109,7 +118,7 @@ Master thesis - Introduction
 \end_layout
 
 \begin_layout Author
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -124,7 +133,7 @@ Mattias Villani
 \begin_layout Institute
 
 \series bold
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -135,15 +144,15 @@ Statistik, LiU
 
 \end_inset
 
-Statistik
+Statistics and Machine Learning
 \begin_inset Newline newline
 \end_inset
 
-Institutionen för Datavetenskap
+Department of Computer and Information Science
 \begin_inset Newline newline
 \end_inset
 
-Linköpings Universitet 
+Linköping University
 \end_layout
 
 \begin_layout Date
@@ -153,14 +162,20 @@ Linköpings Universitet
 
 \end_layout
 
-\begin_layout EndFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
 
-\end_layout
-
-\begin_layout BeginFrame
+\begin_layout Plain Layout
 Admission requirements - the hard facts
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 The 
 \series bold
@@ -177,7 +192,7 @@ exception
 \series default
 : You may have a course moment (exam, lab, project) left to fulfil from
  one course.
- This moment shall be completed at latest in March 2013.
+ This moment shall be completed at latest in March 2015.
  If not, your thesis project will be halted and postponed to next term!
 \end_layout
 
@@ -186,20 +201,28 @@ exception
 \series bold
 This year's exception
 \series default
-: You may start the master thesis course if you can realistically argue
- that you will have passed every compulsory course by March 2013.
- If you are not done by March, your thesis project will be halted and postponed
- to next term!
+: Bayesian Learning must be completed in March 2015, at the latest.
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 A master thesis is a course
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Successive deadlines and compulsory moments: 
 \end_layout
@@ -237,16 +260,27 @@ You shall act as opponent on another thesis and that should be done according
  to the schedule.
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Part 1 - Problem formulation and literature review
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-Time frame: Now- Feb 11 (Project Proposal Seminar).
+Time frame: Now- Feb 10 (Project Proposal Seminar).
 \end_layout
 
 \begin_layout Itemize
@@ -312,19 +346,32 @@ Prepare for your
 Thesis Proposal Seminar
 \series default
  (oral with slides).
- This shall include suggestions of methods
+ This shall include suggestions of methods.
+ 20 minutes presentation.
+ Be very concise!
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Part 2 - Main work, first phase.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-Time frame: Feb 12 - March 25 (Mid-term Report Seminar).
+Time frame: Feb 11 - March 24 (Mid-term Report Seminar).
 \end_layout
 
 \begin_layout Itemize
@@ -359,20 +406,31 @@ Oral presentation with slides
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Part 3 - Main work, second phase.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 
 \series bold
 Time frame
 \series default
-: March 16 - May 13.
+: March 25 - May 11.
 \end_layout
 
 \begin_layout Itemize
@@ -414,16 +472,27 @@ Write a summary (max.
 Prepare the final manuscript to the Revision meeting.
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Part 4 - Finalizing
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-Time frame: May 14 – June 17.
+Time frame: May 12 – June 16.
 \end_layout
 
 \begin_layout Itemize
@@ -445,14 +514,25 @@ Part from the discussion made, the opponent shall provide the respondent
  marked) 
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Part 4 - Finalizing, cont
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Make revisions in your own thesis according to what has been taken up by
  your opponent (and your supervisor) 
@@ -497,20 +577,31 @@ copyright page from LiU Electronic Press
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Schedule
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-January 21, 2014 (Today): Course start.
+January 20, 2015 (Today): Course start.
 \end_layout
 
 \begin_layout Itemize
-February 11, 2014: Thesis proposal seminars
+February 10, 2014: Thesis proposal seminars
 \end_layout
 
 \begin_deeper
@@ -526,20 +617,35 @@ Expected outcome: Each course attendant and tutor should have been informed
 \end_layout
 
 \begin_layout Itemize
-Compulsory to attend!
+
+\series bold
+Compulsory
+\series default
+ to attend!
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Mid-term report
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-March 25, 2014.
+March 24, 2015.
 \end_layout
 
 \begin_layout Itemize
@@ -559,28 +665,43 @@ Expected outcome: Each course attendant and tutor should have been informed
 \end_layout
 
 \begin_layout Itemize
-Compulsory to attend! 
+
+\series bold
+Compulsory
+\series default
+ to attend! 
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Revision meeting
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-May 13, 2014: Deadline for submitting manuscript to opponent and supervisor
+May 11, 2014: Deadline for submitting manuscript to opponent and supervisor
  in front of revision meeting.
 \end_layout
 
 \begin_layout Itemize
-May 20-21, 2014: Revision meetings.
+May 18 (approx), 2014: Revision meetings.
 \end_layout
 
 \begin_layout Itemize
-The opponent has one week (from May 13 until May 20) to read the manuscript
+The opponent has one week (from May 11 until May 18) to read the manuscript
  and prepare an oral and written review.
  
 \end_layout
@@ -590,16 +711,27 @@ The scheduling of the meeting is made in agreement between the author, opponent
  and supervisor.
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Submission of final manuscript and final defense
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-May 27, 2014 at 12.00: Deadline for manuscript submission
+May 27, 2015 at 12.00: Deadline for manuscript submission
 \end_layout
 
 \begin_layout Itemize
@@ -608,7 +740,7 @@ The manuscript should be sent to the opponent and to all supervisors (Anders
 \end_layout
 
 \begin_layout Itemize
-June 3, 2014 (full day): Defence seminar
+June 3, 2015 (full day): Defence seminar
 \end_layout
 
 \begin_deeper
@@ -624,22 +756,41 @@ After the seminar (or in breaks) each supervisor should summarize for the
 \end_layout
 
 \begin_layout Itemize
-Compulsory to attend the whole seminar! 
+
+\series bold
+Compulsory
+\series default
+ to attend the 
+\series bold
+whole
+\series default
+ seminar! 
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-June 17, 2014: Deadline for submission of revised manuscript
+June 16, 2015: Deadline for submission of revised manuscript
 \end_layout
 
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Supervision
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 The 
 \series bold
@@ -672,14 +823,25 @@ Submit manuscript parts to the supervisor in due time before the meeting
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Grading
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 The grading is based on:
 \end_layout
@@ -750,23 +912,34 @@ Quality of presentation and communication
 \end_layout
 
 \end_deeper
-\begin_layout EndFrame
+\end_deeper
+\begin_layout Separator
 
 \end_layout
 
-\begin_layout BeginFrame
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Supervisor and examiners
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="4">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
+<lyxtabular version="3" rows="11" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
@@ -812,7 +985,7 @@ Examiner
 \begin_inset Text
 
 \begin_layout Plain Layout
-Marcus
+Patrik Pavlov
 \end_layout
 
 \end_inset
@@ -821,7 +994,7 @@ Marcus
 \begin_inset Text
 
 \begin_layout Plain Layout
-Spotify
+IFP Energies Nouvelles
 \end_layout
 
 \end_inset
@@ -850,7 +1023,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Parfait
+Yonglin Zhuo
 \end_layout
 
 \end_inset
@@ -868,7 +1041,7 @@ Ericsson
 \begin_inset Text
 
 \begin_layout Plain Layout
-TBA
+Wegmann (Villani)
 \end_layout
 
 \end_inset
@@ -888,7 +1061,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Keith
+Isak Hietala
 \end_layout
 
 \end_inset
@@ -897,7 +1070,46 @@ Keith
 \begin_inset Text
 
 \begin_layout Plain Layout
-LiU
+Inst.
+ Analytical Sociology (LiU)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wänström
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sowmya Krishnaraj
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Siemens
 \end_layout
 
 \end_inset
@@ -926,7 +1138,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Raid
+Jithu Viswanath
 \end_layout
 
 \end_inset
@@ -935,7 +1147,7 @@ Raid
 \begin_inset Text
 
 \begin_layout Plain Layout
-LiU
+Volvo
 \end_layout
 
 \end_inset
@@ -944,45 +1156,7 @@ LiU
 \begin_inset Text
 
 \begin_layout Plain Layout
-Villani
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-TBA
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nazib
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-LiU
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Villani
+Waldmann
 \end_layout
 
 \end_inset
@@ -1002,45 +1176,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Uriel
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-LiU
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Villani
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-TBA
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Paolo
+Martin Arvidsson
 \end_layout
 
 \end_inset
@@ -1074,11 +1210,125 @@ TBA
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Andreea Bocancea
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+iZettle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Villani
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Roger Karlsson 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ericsson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Villani
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nazib Seidu
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LiU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Villani
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Lauren
+Raid Mahbouba
 \end_layout
 
 \end_inset
@@ -1096,7 +1346,7 @@ LiU
 \begin_inset Text
 
 \begin_layout Plain Layout
-Wänström/Wegmann
+Villani
 \end_layout
 
 \end_inset
@@ -1118,9 +1368,6 @@ TBA
 
 \end_layout
 
-\begin_layout EndFrame
-
-\end_layout
-
+\end_deeper
 \end_body
 \end_document
