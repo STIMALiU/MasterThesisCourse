@@ -1,0 +1,649 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\setcounter{MaxMatrixCols}{10}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{mathpazo}
+\usepackage{hyperref}
+\usepackage{multimedia}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\definecolor{RawSienna}{cmyk}{0,0.87,0.82,0.31}
+\definecolor{gray97}{cmyk}{0,0,0,0.03}
+\definecolor{robinsegg}{cmyk}{0.18,0.04,0,0.07}
+\definecolor{cola}{cmyk}{0,0.315,0.35,0.155}
+
+\newenvironment{stepenumerate}{\begin{enumerate}[<+->]}{\end{enumerate}}
+\newenvironment{stepitemize}{\begin{itemize}[<+->]}{\end{itemize} }
+\newenvironment{stepenumeratewithalert}{\begin{enumerate}[<+-| alert@+>]}{\end{enumerate}}
+\newenvironment{stepitemizewithalert}{\begin{itemize}[<+-| alert@+>]}{\end{itemize} }
+\usecolortheme[named=RawSienna]{structure}
+%\usecolortheme[RGB={205,0,0}]{structure}
+\setbeamertemplate{navigation symbols}{}
+\useoutertheme{infolines}
+\usetheme{default}
+\setbeamertemplate{blocks}[shadow=true]
+%\setbeamerfont{structure}{shape=\itshape}
+\usefonttheme{structuresmallcapsserif}
+\setbeamertemplate{background canvas}{
+ % \ifnum \thepage>0 \relax % we are on the first page
+%\includegraphics[width=\paperwidth,height=\paperheight]{/home/mv/Dropbox/Foton/IconsWallpaper/greyribbonLighter.jpg}
+ % \else
+ 	% No background for page 2 and onwards
+ % \fi
+}
+\end_preamble
+\options xcolor=svgnames
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "palatino" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Preparatory Meeting
+\end_layout
+
+\end_inset
+
+Master thesis - Preparatory Meeting
+\end_layout
+
+\begin_layout Author
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Mattias Villani
+\end_layout
+
+\end_inset
+
+Mattias Villani
+\end_layout
+
+\begin_layout Institute
+
+\series bold
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Statistik, LiU
+\end_layout
+
+\end_inset
+
+Statistics and Machine Learning
+\begin_inset Newline newline
+\end_inset
+
+Department of Computer and Information Science
+\begin_inset Newline newline
+\end_inset
+
+Linköping University
+\end_layout
+
+\begin_layout Date
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What you will learn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Applying knowledge from your courses to 
+\series bold
+solve a practical real-world problem
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Scientific reasoning
+\series default
+ on a problem that has not yet been solved.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Communication
+\series default
+ with non-statistical commissioners.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Short-time comprehension of a problem area
+\series default
+, including previous work.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Project planning
+\series default
+ in order to keep with the schedule.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Compiling
+\series default
+ months of work on literature studies, data cleaning, statistical modelling
+ and computer programming into a 
+\series bold
+comprehensive scientific report
+\series default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A master thesis is a course
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Starts in January.
+ Ends in June.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Successive deadlines
+\series default
+ and 
+\series bold
+\color red
+compulsory
+\series default
+ 
+\series bold
+moments
+\series default
+\color inherit
+: 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Thesis 
+\series bold
+proposal seminar 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mid-term report
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Revision meeting
+\series default
+ (pre-defense meeting)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Defence seminar
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+You shall act as 
+\series bold
+opponent
+\series default
+ on another thesis and that should be done according to the schedule.
+\end_layout
+
+\begin_layout Itemize
+See old course page for:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Theses from previous years: https://www.ida.liu.se/~732A30/info/courseinfo.en.shtml
+\end_layout
+
+\begin_layout Itemize
+Timetable for this year: https://www.ida.liu.se/~732A30/timetable/index.en.shtml
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+More info
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Three options:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+External commissioner (e.g.
+ a company, see https://www.ida.liu.se/~732A30/ExternalProjects2016/)
+\end_layout
+
+\begin_layout Itemize
+STIMA commissioner (you apply for STIMA issued projects, see https://www.ida.liu.se
+/~732A30/InternalProjects2016/)
+\end_layout
+
+\begin_layout Itemize
+STIMA assigns a topic for you (only as last resort, you do not get to choose
+ topic).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Individual work
+\end_layout
+
+\begin_layout Itemize
+Graded on A-F scale
+\end_layout
+
+\begin_layout Itemize
+A supervisor is appointed from STIMA (and often also at the commissioner)
+\end_layout
+
+\begin_layout Itemize
+An examiner is appointed (not the same as supervisor)
+\end_layout
+
+\begin_layout Itemize
+Circle of opposition (you are not the opponent on your opponent's thesis).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finding a project
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each student is responsible themselves for finding a subject proposal by
+ contacting potential commissioners in Sweden or abroad.
+\end_layout
+
+\begin_layout Itemize
+Talk to former students of the program, look at thesis subject from previous
+ years etc.
+\end_layout
+
+\begin_layout Itemize
+Possible commissioners:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Governmental authorities
+\series default
+: SCB (Statistical office of Sweden), Sveriges Riksbank (Sweden’s central
+ bank), Hälsouniversitetet (Faculty of Health Sciences, Linköping university),
+ Karolinska institutet (Medical university of Stockholm), VTI (The Swedish
+ National Road and Transport Research Institute, Linköping), Östergötlands
+ landsting (regions health service), SMHI (Meteorological inst, Norrköping)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Private companies
+\series default
+: Ericsson (Stockholm and Linköping), Siemens (Finspång), Scania (Södertälje),
+ Volvo (Gothenburg), Insurance companies (FOLKSAM, If, …), Private banks
+ (Swedbank, Nordea, SEB, Handelsbanken), Start-ups in Mjärdevi Science Park
+ near LiU etc etc
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finding a project
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Send e-mails, try to contact by phone.
+ Try to avoid personnel departments, try to find specialists.
+ 
+\end_layout
+
+\begin_layout Itemize
+Describe yourself as a Master’s student in Statistics and Data Mining.
+ 
+\end_layout
+
+\begin_layout Itemize
+Emphasize your ability to work with large data and computer programming/calculat
+ions.
+ 
+\end_layout
+
+\begin_layout Itemize
+Contact several commissioners at a time.
+\end_layout
+
+\begin_layout Itemize
+Be clear to the commissioner about:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The thesis is 30 credits and 
+\series bold
+5 months
+\series default
+ of intensive work.
+\end_layout
+
+\begin_layout Itemize
+The level should be 
+\series bold
+advanced
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Scientific thesis
+\series default
+.
+ You need to put your work in a scientific context.
+ Previous literature.
+ Analyze 
+\series bold
+why
+\series default
+ your solution works.
+\end_layout
+
+\begin_layout Itemize
+The 
+\series bold
+thesis is public
+\series default
+.
+ There might be issues of confidentiality attached to the thesis work.
+ If such issues are too restrictive, you may enter into difficulties.
+ Some data/info can be masked, but not too much.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+There should be 
+\series bold
+enough data
+\series default
+ and data of 
+\series bold
+good enough quality
+\series default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Applying for a STIMA project
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Research-related projects.
+\end_layout
+
+\begin_layout Itemize
+See https://www.ida.liu.se/~732A30/InternalProjects2016/ for offered project.
+ More will come within a few days.
+\end_layout
+
+\begin_layout Itemize
+Apply by sending a short application to the STIMA researcher listed on the
+ project.
+\end_layout
+
+\begin_layout Itemize
+Application should include:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Your name!
+\end_layout
+
+\begin_layout Itemize
+Explanation why you want to work with the project
+\end_layout
+
+\begin_layout Itemize
+Describing your competences (courses taken) that especially suitable for
+ the project
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Deadline for applications: Nov 25.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
