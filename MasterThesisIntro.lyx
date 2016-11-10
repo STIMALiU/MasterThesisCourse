@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass beamer
 \begin_preamble
 \setcounter{MaxMatrixCols}{10}
@@ -44,16 +46,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman palatino
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "palatino" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -173,39 +175,23 @@ Admission requirements - the hard facts
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The 
-\series bold
-rule
-\series default
-: You must have passed (grade A-E) every compulsory course within the study
+You must have passed (grade A-E) every compulsory course within the study
  program.
 \end_layout
 
-\begin_layout Itemize
-The 
-\series bold
-exception
-\series default
-: You may have a course moment (exam, lab, project) left to fulfil from
- one course.
- This moment shall be completed at latest in March 2015.
- If not, your thesis project will be halted and postponed to next term!
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-This year's exception
-\series default
-: Bayesian Learning must be completed in March 2015, at the latest.
-\end_layout
-
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -220,11 +206,19 @@ A master thesis is a course
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Successive deadlines and compulsory moments: 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -261,7 +255,10 @@ You shall act as opponent on another thesis and that should be done according
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -276,11 +273,15 @@ Part 1 - Problem formulation and literature review
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Time frame: Now- Feb 10 (Project Proposal Seminar).
+Time frame: Now - Project Proposal Seminar.
 \end_layout
 
 \begin_layout Itemize
@@ -303,6 +304,12 @@ put by the commissioner.
 
 \series bold
 Put your work in a scientific context
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -352,7 +359,10 @@ Thesis Proposal Seminar
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -367,11 +377,15 @@ Part 2 - Main work, first phase.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Time frame: Feb 11 - March 24 (Mid-term Report Seminar).
+Time frame: Project Proposal Seminar - Mid-term Seminar.
 \end_layout
 
 \begin_layout Itemize
@@ -394,6 +408,10 @@ Write draft pages containing results and analysis of these
 \begin_layout Itemize
 Towards the end of the period, prepare for the Mid-term report seminar:
  
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -407,7 +425,10 @@ Oral presentation with slides
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -422,6 +443,10 @@ Part 3 - Main work, second phase.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -430,7 +455,7 @@ Part 3 - Main work, second phase.
 \series bold
 Time frame
 \series default
-: March 25 - May 11.
+: Mid-term Seminar - Revision meeting
 \end_layout
 
 \begin_layout Itemize
@@ -473,7 +498,10 @@ Prepare the final manuscript to the Revision meeting.
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -488,11 +516,15 @@ Part 4 - Finalizing
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Time frame: May 12 – June 16.
+Time frame: Revision meeting – Final submission of thesis.
 \end_layout
 
 \begin_layout Itemize
@@ -515,7 +547,10 @@ Part from the discussion made, the opponent shall provide the respondent
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -527,6 +562,10 @@ status open
 Part 4 - Finalizing, cont
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -565,6 +604,10 @@ Consider the discussion of your thesis during the Defence seminar and revise
 
 \begin_layout Itemize
 Submit your very final manuscript in which you have included:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -578,7 +621,10 @@ copyright page from LiU Electronic Press
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -593,6 +639,10 @@ Schedule
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -602,6 +652,10 @@ January 20, 2015 (Today): Course start.
 
 \begin_layout Itemize
 February 10, 2014: Thesis proposal seminars
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -626,7 +680,10 @@ Compulsory
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -638,6 +695,10 @@ status open
 Mid-term report
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -673,7 +734,10 @@ Compulsory
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -685,6 +749,10 @@ status open
 Revision meeting
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -712,7 +780,10 @@ The scheduling of the meeting is made in agreement between the author, opponent
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -724,6 +795,10 @@ status open
 Submission of final manuscript and final defense
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -741,6 +816,10 @@ The manuscript should be sent to the opponent and to all supervisors (Anders
 
 \begin_layout Itemize
 June 3, 2015 (full day): Defence seminar
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -773,7 +852,10 @@ June 16, 2015: Deadline for submission of revised manuscript
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -785,6 +867,10 @@ status open
 Supervision
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -810,6 +896,10 @@ At each meeting it is wise to agree on what are the next steps.
 
 \begin_layout Itemize
 You are expected to successively show progress in your report writing:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -824,7 +914,10 @@ Submit manuscript parts to the supervisor in due time before the meeting
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -839,11 +932,19 @@ Grading
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 The grading is based on:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -913,7 +1014,10 @@ Quality of presentation and communication
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -928,6 +1032,10 @@ Supervisor and examiners
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -935,7 +1043,7 @@ Supervisor and examiners
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="4">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
@@ -985,7 +1093,7 @@ Examiner
 \begin_inset Text
 
 \begin_layout Plain Layout
-Patrik Pavlov
+NN
 \end_layout
 
 \end_inset
@@ -994,7 +1102,7 @@ Patrik Pavlov
 \begin_inset Text
 
 \begin_layout Plain Layout
-IFP Energies Nouvelles
+RR
 \end_layout
 
 \end_inset
@@ -1003,45 +1111,7 @@ IFP Energies Nouvelles
 \begin_inset Text
 
 \begin_layout Plain Layout
-Nordgaard
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-TBA
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yonglin Zhuo
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Ericsson
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Wegmann (Villani)
+MM
 \end_layout
 
 \end_inset
@@ -1061,7 +1131,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Isak Hietala
+NN
 \end_layout
 
 \end_inset
@@ -1070,8 +1140,7 @@ Isak Hietala
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inst.
- Analytical Sociology (LiU)
+RR
 \end_layout
 
 \end_inset
@@ -1080,45 +1149,7 @@ Inst.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Wänström
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-TBA
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sowmya Krishnaraj
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Siemens
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Waldmann
+MM
 \end_layout
 
 \end_inset
@@ -1138,7 +1169,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Jithu Viswanath
+NN
 \end_layout
 
 \end_inset
@@ -1147,7 +1178,7 @@ Jithu Viswanath
 \begin_inset Text
 
 \begin_layout Plain Layout
-Volvo
+RR
 \end_layout
 
 \end_inset
@@ -1156,7 +1187,45 @@ Volvo
 \begin_inset Text
 
 \begin_layout Plain Layout
-Waldmann
+MM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1176,7 +1245,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Martin Arvidsson
+
 \end_layout
 
 \end_inset
@@ -1185,7 +1254,7 @@ Martin Arvidsson
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ericsson
+
 \end_layout
 
 \end_inset
@@ -1194,7 +1263,45 @@ Ericsson
 \begin_inset Text
 
 \begin_layout Plain Layout
-Waldmann
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1214,7 +1321,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Andreea Bocancea
+
 \end_layout
 
 \end_inset
@@ -1223,7 +1330,7 @@ Andreea Bocancea
 \begin_inset Text
 
 \begin_layout Plain Layout
-iZettle
+
 \end_layout
 
 \end_inset
@@ -1232,45 +1339,7 @@ iZettle
 \begin_inset Text
 
 \begin_layout Plain Layout
-Villani
-\end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-TBA
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Roger Karlsson 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Ericsson
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Villani
 \end_layout
 
 \end_inset
@@ -1290,7 +1359,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Nazib Seidu
+
 \end_layout
 
 \end_inset
@@ -1299,7 +1368,7 @@ Nazib Seidu
 \begin_inset Text
 
 \begin_layout Plain Layout
-LiU
+
 \end_layout
 
 \end_inset
@@ -1308,7 +1377,45 @@ LiU
 \begin_inset Text
 
 \begin_layout Plain Layout
-Villani
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TBA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1328,7 +1435,7 @@ TBA
 \begin_inset Text
 
 \begin_layout Plain Layout
-Raid Mahbouba
+NN
 \end_layout
 
 \end_inset
@@ -1337,7 +1444,7 @@ Raid Mahbouba
 \begin_inset Text
 
 \begin_layout Plain Layout
-LiU
+RR
 \end_layout
 
 \end_inset
@@ -1346,7 +1453,7 @@ LiU
 \begin_inset Text
 
 \begin_layout Plain Layout
-Villani
+MM
 \end_layout
 
 \end_inset
