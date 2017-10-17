@@ -326,16 +326,31 @@ opponent
 \end_layout
 
 \begin_layout Itemize
-See old course page for:
+Course web page 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.ida.liu.se/~732A64/info/courseinfo.en.shtml
+\end_layout
+
+\end_inset
+
+ containing:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Theses from previous years: https://www.ida.liu.se/~732A30/info/courseinfo.en.shtml
+Timetable for this year
 \end_layout
 
 \begin_layout Itemize
-Timetable for this year: https://www.ida.liu.se/~732A30/timetable/index.en.shtml
+Theses from previous years
+\end_layout
+
+\begin_layout Itemize
+Thesis template files
 \end_layout
 
 \end_deeper
@@ -372,12 +387,35 @@ Three options:
 \begin_deeper
 \begin_layout Itemize
 External commissioner (e.g.
- a company, see https://www.ida.liu.se/~732A30/ExternalProjects2016/)
+ a company, see 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/STIMALiU/MasterThesisCourse/tree/master/Proposals/2017/Externa
+l
+\end_layout
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Itemize
-STIMA commissioner (you apply for STIMA issued projects, see https://www.ida.liu.se
-/~732A30/InternalProjects2016/)
+STIMA commissioner (you apply for STIMA issued projects, see 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/STIMALiU/MasterThesisCourse/tree/master/Proposals/2017/Interna
+l
+\end_layout
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Itemize
@@ -465,9 +503,9 @@ Governmental authorities
 Private companies
 \series default
 : Ericsson (Stockholm and Linköping), Siemens (Finspång), Scania (Södertälje),
- Volvo (Gothenburg), Insurance companies (FOLKSAM, If, …), Private banks
- (Swedbank, Nordea, SEB, Handelsbanken), Start-ups in Mjärdevi Science Park
- near LiU etc etc
+ Volvo (Gothenburg), Insurance companies (FOLKSAM, If, …), Autoliv (Linköping),
+ Private banks (Swedbank, Nordea, SEB, Handelsbanken), Start-ups in Mjärdevi
+ Science Park near LiU, Spotify, Google Stockholm etc etc
 \end_layout
 
 \end_deeper
@@ -505,11 +543,23 @@ Describe yourself as a Master’s student in Statistics and Data Mining.
 \end_layout
 
 \begin_layout Itemize
-Emphasize your ability to work with large data and computer programming/calculat
-ions.
- 
+Emphasize your:
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+deep knowledge in Statistics and Machine Learning
+\end_layout
+
+\begin_layout Itemize
+abiliy to work with large datasets
+\end_layout
+
+\begin_layout Itemize
+programming skills
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Contact several commissioners at a time.
 \end_layout
@@ -561,9 +611,8 @@ thesis is public
  Some data/info can be masked, but not too much.
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-There should be 
+That there should be 
 \series bold
 enough data
 \series default
@@ -574,6 +623,7 @@ good enough quality
 .
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -601,8 +651,20 @@ Research-related projects.
 \end_layout
 
 \begin_layout Itemize
-See https://www.ida.liu.se/~732A30/InternalProjects2016/ for offered project.
- More will come within a few days.
+See 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/STIMALiU/MasterThesisCourse/tree/master/Proposals/2017/Interna
+l
+\end_layout
+
+\end_inset
+
+ for offered project.
+ This folder will be added to in the coming 7-10 days.
 \end_layout
 
 \begin_layout Itemize
@@ -634,7 +696,7 @@ Describing your competences (courses taken) that especially suitable for
 
 \end_deeper
 \begin_layout Itemize
-Deadline for applications: Nov 25.
+Deadline for applications: Nov 26.
 \end_layout
 
 \end_deeper
